@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+	<head>
+		<title>Tabela com CSS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width" initial-scale=1>
+
+		<!--RESET-->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+		<!--FONTES-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="./css/stylee.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end EBAC</h2>
+			<h3>Criação de formulário</h3>
+		</header>
+		<hr/>
+
+		<section>
+
+			<nav>
+				<h3>Exercícios Realizados</h3>
+				<ul class="navegacao">
+					<li><a href="exercicio-04.html">Home</a></li>
+					<li><a href="Exercicio-modulo07.html">Tabelas</a>
+					<li><a href="06-formularios.html">Formulários</a></li>
+					<li><a href="Convite.html"> Fale conosco!</a></li>
+
+				</ul>
+				<div class="redessociais-container">
+					<h3>Redes Sociais</h3>
+					<ul>
+						<a href="https://www.instagram.com/lubamathias/" class="instalogo"><img src="./Imagens/instagram.png"></a>
+						<a href="https://www.linkedin.com/in/lucianomathiasamorim/"><img src="./Imagens/linkedin.png"></a>
+					</ul>
+				</div>
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você sabe?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="Azul">Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho" selected>Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit" >
+					</div>
+					
+
+				</form>
+
+				
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Luciano Mathias</p>
+		</footer>
+		
+	</body>
+</html>

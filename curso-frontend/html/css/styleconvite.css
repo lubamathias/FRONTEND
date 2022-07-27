@@ -1,0 +1,125 @@
+
+*{
+	box-sizing: border-box
+}
+
+	html{
+		background: url(../Imagens/cssimage3.png) ;
+		background-repeat: repeat;
+	}
+	body {
+		overflow: auto;
+	}
+	hr {
+		height: 30px;
+		color: white;
+
+	}
+	header{
+		text-align: center;
+		padding: 40px;
+		background: url(../Imagens/desenvolvimento.jpeg);
+		background-size: 100%;
+	}
+	.imghome {border-radius: 20%;
+		margin: auto;}
+	nav {
+		float: left;
+		padding-left: 2rem;
+	}
+	
+
+	h2, h3, ul {
+			font-family: 'Shadows Into Light', cursive;
+	}
+	p {
+		font-family: cursive;
+		color: white;
+		padding-bottom: 2rem;
+	}
+	header h2{
+		font-size: 3rem;
+		color: white;
+	}
+	h3 {
+		font-size: 30px;
+	}
+
+	a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+	}
+
+	a:hover {
+	
+		font-size: 30px;
+	}
+	li{
+		padding-top: 15px;
+		text-decoration: none;
+	} 
+	article h2{
+		font-family: Arial, sans-serif, serif;
+
+	}
+	article{
+		box-sizing: border-box;
+		padding: 10rem;
+		float: left;
+		padding: 1rem 5rem;
+		font-family: Arial, sans-serif, serif;
+
+	}
+
+
+	.hline {
+		width: 20%;
+	}
+	.tabela h2 {
+		font-style: italic;
+		font-size: 1.2rem;
+		margin-bottom: 1rem;
+	}
+	footer {
+		bottom: 0;
+		position: fixed;
+		text-align: center;
+		padding-left: 35rem;
+		font-weight: bold;
+
+	}
+	.redessociais-container {
+		padding-top: 2rem;
+	}
+	.instalogo {
+		padding-left: 25px;
+	}
+	.center-article {
+		padding-left: 15rem;
+	}
+	.imgcoffe {
+		width: 25%;
+		border-radius: 50%;
+    }
+    .imgprojeto {
+        width: 25%;
+		border-radius: 50%;
+
+
+	}
+
+    .div1 {
+        width: 150%;
+    }
+    table td {
+        font-size:large;
+        font-family: cursive;
+        font-stretch: ultra-condensed;
+        color: rgb(201, 43, 43);
+        text-shadow: 0 0 1px rgb(0, 0, 0);
+    }
+    table tr td:first-child{
+        text-align: left;
+    }
+
