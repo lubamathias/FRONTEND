@@ -1,0 +1,33 @@
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+input {
+    margin-bottom: 1rem;
+}
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+.btn.btn-lg.btn-sucess {
+    background: green;
+    color: aliceblue;
+    margin-top: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  Este exemplo cria um footer com uma cor de fundo escura e texto branco. O texto "Desenvolvido por Luciano Mathias" é centralizado dentro do container. Você pode personalizar o estilo do footer conforme suas necessidades, adicionando ou modificando as propriedades CSS.
+  
+  
+  
+  
+  
