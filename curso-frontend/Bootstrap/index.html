@@ -22,7 +22,7 @@
                         <li class="nav-itens"><a class="nav-link active" href="">Home</a></li>
                         <li class="nav-itens"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-itens"><a class="nav-link" href="#produtos">Produtos</a></li>
-                        <li class="nav-itens"><a class="nav-link" href="#contatos">Contatos</a></li>
+                        <li class="nav-itens"><a class="nav-link" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,27 +84,47 @@
         </div>
     </section>
 
-    <section id="contatos">
+
+
+    <section id="contato">
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="form row-cols-2">
+                <div class="col-md-12 col-sm-12">
                     <h2>Contato</h2>
-                    <p>Preencha os campos para receber uma cotação e tirar dúvidas!</p>
+                    <p>Ficou interessado? Preencha os campos para receber uma cotação e tirar dúvidas!</p>
                 </div>
-                <div class="col">
                     <form class="form">
-                        <div class="input-group">
-                            <input type="text" name="nome" placeholder="digite seu nome">
+                            <div class="form-group form-label-below">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" name="nome" placeholder="digite seu nome" class="form-control">
+                            </div>
+                            <div class="form-group form-label-below">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" placeholder="digite seu email" class="form-control">
+                            </div>
                         </div>
-                        <div class="input-group">
-                            <input type="email" name="email" placeholder="digite seu email">
+                        <div class="form-group form-label-below">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id=""  rows="5" placeholder="digite sua mensagem" class="form-control"></textarea>
                         </div>
-                        <div class="input-group">
-                            <textarea name="mensagem" id=""  rows="5" placeholder="digite sua mensagem"></textarea>
-                        </div>
-                        <div class="btn btn-lg btn-sucess">Enviar</div>
+                       
+                        <div class="form-group form-label-below">
+                            <label for="estado" class="form-label">Selecione seu estado</label>
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected>Estado</option>
+                            <option value="SP">SP</option>
+                            <option value="RJ">RJ</option>
+                            <option value="BH">BH</option>
+                            <option value="BA">BA</option>
+                            </select>
+                            
+                        </div>                   
+                    <div class="col-md-4 col-sm-12">
+                                    
+                    </div>
                     </form>
-                </div>
+                        <div class="btn btn-lg btn-sucess">Enviar</div>
+                    
             </div>
         </div>
     </section>    

@@ -25,9 +25,16 @@ footer {
     font-size: 16px;
     margin: 0;
   }
-  Este exemplo cria um footer com uma cor de fundo escura e texto branco. O texto "Desenvolvido por Luciano Mathias" é centralizado dentro do container. Você pode personalizar o estilo do footer conforme suas necessidades, adicionando ou modificando as propriedades CSS.
+  .form-label-below label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
   
-  
-  
-  
+  .form-label-below input {
+    margin-top: 0.5rem;
+  }
+
+  .form {
+    padding-top: 2.5rem;
+  }
   
