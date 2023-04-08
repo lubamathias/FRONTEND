@@ -1,0 +1,16 @@
+#navbarResponsive {
+    top: 50px;
+}
+
+/* Estilos para o campo inválido */
+.is-invalid {
+    border-color: red;
+  }
+
+  .esgotado{
+    color: red;
+    font-style: italic;
+    padding-left: 10px;
+    width: 2%;
+    
+  }
