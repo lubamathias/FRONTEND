@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                 <img src="./Imagens/Logo.jpg" alt="img-logo" class="logoimg">
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-itens"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-itens"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-itens"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-itens"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <video autoplay muted loop id="bg-video">
+            <source src="./video/background-video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div class="col-md-5 col-sm-12 container-mao">
+                    <img src="./Imagens/image-tech.jpg" alt="imgem exemplo" class="img-fluid img-mao">
+                </div>
+
+            </div>
+        </div>
+    <hr>
+    </section>
+    
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">                        
+                                    <img src="./Imagens/óculosvirtual-imagem.jpg" alt="óculosvirtual-imagem" class="img-fluid">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Lorem ipsum dolor</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <a class="btn btn-primary" href="#produto-1">ver produto</a>
+                                    </div>                        
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="./Imagens/projetor-imagem.jpg" alt="projetor-imagem" class="img-fluid">
+                                <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                        <a class="btn btn-primary" href="#produto-2">ver produto</a>
+                                </div>    
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <div class="card">
+                                <img src="./Imagens/robo-imagem.jpg" alt="robo-imagem" class="img-fluid">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lorem ipsum dolor</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                    <a class="btn btn-primary" href="#produto-3">ver produto</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="contato">
+        <div class="container">
+            <div class="form row-cols-2">
+                <div class="col-md-12 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos para receber uma cotação e tirar dúvidas!</p>
+                </div>
+                    <form class="form">
+                            <div class="form-group form-label-below">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" name="nome" placeholder="digite seu nome" class="form-control">
+                            </div>
+                            <div class="form-group form-label-below">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" placeholder="digite seu email" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group form-label-below">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id=""  rows="5" placeholder="digite sua mensagem" class="form-control"></textarea>
+                        </div>
+                       
+                        <div class="form-group form-label-below">
+                            <label for="estado" class="form-label">Selecione seu estado</label>
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected>Estado</option>
+                            <option value="SP">SP</option>
+                            <option value="RJ">RJ</option>
+                            <option value="BH">BH</option>
+                            <option value="BA">BA</option>
+                            </select>
+                            
+                        </div>                   
+                    <div class="col-md-4 col-sm-12">
+                                    
+                    </div>
+                    </form>
+                        <div class="btn btn-lg btn-sucess">Enviar</div>
+                    
+            </div>
+        </div>
+    </section>    
+    <footer>
+        <div class="container">
+          <p class="text-center">Desenvolvido por Luciano Mathias</p>
+        </div>
+      </footer>
+
+</body>
+</html>

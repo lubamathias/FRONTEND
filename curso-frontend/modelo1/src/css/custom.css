@@ -1,0 +1,64 @@
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.logoimg {
+  height: 5rem;
+  text-align: center;
+  padding-left: 10rem;
+}
+input {
+    margin-bottom: 1rem;
+}
+.card {
+    width: ;
+    float: left;
+    margin: 5px;
+}
+#sobre {
+  color: aliceblue;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.btn.btn-lg.btn-sucess {
+    background: green;
+    color: aliceblue;
+    margin-top: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .form-label-below label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-label-below input {
+    margin-top: 0.5rem;
+  }
+
+  .form {
+    padding-top: 2.5rem;
+  }
+  .nav {
+    padding-top: 1rem;
+  }
