@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const minifyCSS = require('gulp-minify-css');
 const uglify = require('gulp-uglify')
+const htmlmin = require('gulp-htmlmin')
 
 gulp.task('minify-css', function(){
     return gulp.src('src/css/*.css')    
@@ -43,4 +44,14 @@ gulp.task('minify-bootstrapJS',function(){
     .pipe(concat('bootstrapJS.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('minify-html', function(){
+    return gulp.src('src/**/*.html')
+        .pipe(concat('all.min.html'))
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('./dist'))
+        .on('end',function(){
+            console.log('Processo concluído')
+        });
 });

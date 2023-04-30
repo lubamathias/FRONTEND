@@ -38,3 +38,8 @@ footer {
     padding-top: 2.5rem;
   }
   
+  img {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+  }
