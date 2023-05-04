@@ -7,6 +7,7 @@ section {
   text-align: center;
   padding-left: 10rem;
 }
+
 input {
     margin-bottom: 1rem;
 }
@@ -61,4 +62,16 @@ footer {
   }
   .nav {
     padding-top: 1rem;
+  }
+
+  /*CSS para tirar rolagem horizontal nos smartphones*/
+  .container {
+    max-width: 1000px; /* largura máxima definida para desktops e laptops */
+    margin: 0 auto; /* centraliza o container na página */
+    overflow-x: hidden; /* oculta a barra de rolagem horizontal */
+  
+    /* define largura de 100% em telas menores */
+    @media (max-width: 767px) {
+      max-width: 100%;
+    }
   }

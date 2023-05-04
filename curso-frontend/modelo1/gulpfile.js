@@ -2,6 +2,7 @@ const gulp = require('gulp')
 const concat = require('gulp-concat')
 const minifyCSS = require('gulp-minify-css')
 const htmlmin = require('gulp-htmlmin')
+const uglify = require('gulp-uglify')
 
 gulp.task ('minifyCSS', function(){
     return gulp.src('src/css/*.css')
@@ -21,3 +22,9 @@ gulp.task ('minifyhtml', function(){
     });
 })
 
+gulp.task('minifyJS', function(){
+    return gulp.src('src/js/*.js')
+    .pipe(concat('all.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js'))
+});
