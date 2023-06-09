@@ -20,4 +20,14 @@ body {
   background-color: rgba(93, 173, 226, 0.768627451);
 }
 
+.destacks {
+  border: 2px solid #fff;
+  background-color: rgba(93, 173, 226, 0.768627451);
+}
+.destacks .promocao {
+  font-style: italic;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+
 /*# sourceMappingURL=style.css.map */
